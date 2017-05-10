@@ -1,19 +1,26 @@
 {
   "name": "about_portal",
-  "version": "1.0.0",
-  "description": "Site about myself",
-  "main": "index.html",
+  "version": "0.2.5",
+  "description": "simple site about me",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tatyana512/about_portal.git"
+    "url": "https://github.com/Tatyana512/about_portal"
   },
-  "author": "Tatyana Yolkina",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Tatyana512/about_portal/issues"
-  },
-  "homepage": "https://github.com/Tatyana512/about_portal#readme"
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
